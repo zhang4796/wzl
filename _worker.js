@@ -13,7 +13,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
+https://zhfdy.zhff.dpdns.org/auto
 `;
 
 let urls = [];
@@ -825,4 +825,5 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 			headers: { "Content-Type": "text/plain;charset=utf-8" }
 		});
 	}
+
 }
